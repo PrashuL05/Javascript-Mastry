@@ -62,3 +62,40 @@ let counter = 0;
 
 //ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
+
+/****************Data types summary************************** */
+/*
+data types are 2 types :
+ 1. Primitive data type     - (also known as call by value)
+ 2. Non-Primitive data type - (also known as call by reference)
+
+// Primitive data types: 7
+ 1. string 
+ 2. number
+ 3. boolean
+ 4. null
+ 5. undefined
+ 6. symbol
+ 7. bigInt
+
+ */
+const score =100; // dynamic typed language 
+const scoreValue = 100.3
+
+const isLoggedIn = false //boolean
+const outsideTemp = null //null
+let userEmail; //undefined
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId); //false
+
+
+/*
+// Non - Primitive data types:
+1. array
+2. objects
+3. functions
+    
+*/
