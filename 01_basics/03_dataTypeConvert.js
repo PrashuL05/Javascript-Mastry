@@ -79,10 +79,10 @@ data types are 2 types :
  7. bigInt
 
  */
-const score =100; // dynamic typed language 
+const score1 =100; // dynamic typed language 
 const scoreValue = 100.3
 
-const isLoggedIn = false //boolean
+const isLoggedIn1 = false //boolean
 const outsideTemp = null //null
 let userEmail; //undefined
 
@@ -99,3 +99,24 @@ console.log(id === anotherId); //false
 3. functions
     
 */
+
+const bigNumber = 234253254353222234242n;
+// console.log(bigNumber);
+const heros = ["shaktiman","naagraj","doga","krrish"];
+let myObj = {
+    name:"prashanth",
+    age:24
+}
+
+const myFunction = function(){
+    console.log("hello World");
+}
+myFunction()
+
+console.log("Bigint : ",typeof bigNumber);
+console.log("undefined : ",typeof userEmail);
+console.log("Null : ",typeof outsideTemp);
+console.log("my Object : " , typeof myObj);
+console.log(" my Function : ",typeof myFunction );
+console.log("Heros : ",typeof heros);
+console.log("Symbol : ",typeof anotherId);
