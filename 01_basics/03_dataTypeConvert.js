@@ -89,7 +89,7 @@ let userEmail; //undefined
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId); //false
+// console.log(id === anotherId); //false
 
 
 /*
@@ -111,12 +111,46 @@ let myObj = {
 const myFunction = function(){
     console.log("hello World");
 }
-myFunction()
+// myFunction()
 
-console.log("Bigint : ",typeof bigNumber);
-console.log("undefined : ",typeof userEmail);
-console.log("Null : ",typeof outsideTemp);
-console.log("my Object : " , typeof myObj);
-console.log(" my Function : ",typeof myFunction );
-console.log("Heros : ",typeof heros);
-console.log("Symbol : ",typeof anotherId);
+// console.log("Bigint : ",typeof bigNumber);
+// console.log("undefined : ",typeof userEmail);
+// console.log("Null : ",typeof outsideTemp);
+// console.log("my Object : " , typeof myObj);
+// console.log(" my Function : ",typeof myFunction );
+// console.log("Heros : ",typeof heros);
+// console.log("Symbol : ",typeof anotherId);
+
+//+++++++++++++++++++++++++++++++++++++++ Stack and Heap Memory concepts ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+memories 2 types : 
+1.Stack (primitive) - copy value change
+2.Heap (Non- Primitive)- original value change
+
+*/
+
+let myname = "prashu";
+
+let anotherName = myname;
+anotherName ="Prashanth";
+
+// console.log(myname);
+// console.log(anotherName);
+
+
+let user ={
+    email : "prashu@gmail.com",
+    upi: "prashu@ybl"
+}
+
+let userTwo = user;
+
+// console.log(user);
+// console.log(userTwo)
+
+userTwo.email ="Prashanth@gmail.com"; // it will change org email value
+// console.log(userTwo);
+
+// console.log(user.email); 
+// console.log(userTwo.email);
