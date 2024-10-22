@@ -12,10 +12,10 @@ const secondName = "bhisetti";
 const gameName = new String("prashanth"); //now string is an object so there are diff methods to access this string values
 // console.log(gameName);
 // console.log(gameName[0]);
-console.log(gameName.length);
-console.log(gameName.charAt(4))
-console.log(gameName.at(7))
-console.log(gameName.indexOf('s'))
+// console.log(gameName.length);
+// console.log(gameName.charAt(4))
+// console.log(gameName.at(7))
+// console.log(gameName.indexOf('s'))
 //better to check with brower for this object it will show all the string method
 
 // const newStr = gameName.substring(0,4) //0-to-3
@@ -29,9 +29,9 @@ const strTrim = "  Prashanth  ";
 // console.log(strTrim.trim())
 
 const strReplace = "https://prashanth.com/prashanth%20bhisetti";
-console.log(strReplace.replace("%20","/"));
+// console.log(strReplace.replace("%20","/"));
 
-console.log(strReplace.includes('prashanth'))
-console.log(strReplace.split('/'))
+// console.log(strReplace.includes('prashanth'))
+// console.log(strReplace.split('/'))
 
-console.log(gameName.anchor('Link'))
+// console.log(gameName.anchor('Link'))
