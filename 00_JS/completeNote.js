@@ -105,3 +105,5 @@ switch(user){
         break;
 
 }
+
+//L13 - Coercion and falsy values
